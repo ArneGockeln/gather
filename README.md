@@ -47,7 +47,7 @@ $ gather -dvli eurusd.conf
 
 **Fetch historical data:**
 
-This will fetch one hour (3600 seconds) back from now. 
+This will fetch one hour (3600 seconds) back from now. One candle every minute. 
 
 ```bash
 $ gather -t 3600 -i eurusd.conf
